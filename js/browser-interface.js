@@ -8,6 +8,7 @@ $(document).ready(function() {
 
   // $('.showUser1').text(moment());
   $('#userLookup').click(function() {
+    $(".showRepos").empty();
     var test = [];
     var inputUserName = $('#inputUserName').val();
     $('#inputUserName').val("");
