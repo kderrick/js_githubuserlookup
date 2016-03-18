@@ -1,0 +1,23 @@
+{
+  "name": "js_github_lookup",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Kyle <kderrick1988@gmail.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.2",
+    "bootstrap": "^3.3.6",
+    "moment": "^2.12.0"
+  }
+}
