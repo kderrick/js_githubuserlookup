@@ -11,31 +11,26 @@ Enter a GitHub username into a form to see information about that user's public 
 ## Setup/Installation Requirements
 
 * Clone this repository.
-* Make sure you have Node and Bower installed:
+* Make sure you have Node installed:
     * For Node:
         * Find the correct installer for your operating system on the [Node website](https://nodejs.org/en/download/)
-    * For Bower:
 
-      ```
-      $ npm install bower -g
-      ```  
+
+
 * In the top level of your directory run:
-
-    ```
-    $ npm install
-    ```
-
-    ```
-    $ bower install
-    ```
-
-    ```
-    $ gulp build --production
-    ```
-
-    ```
-    $ gulp serve
-    ```
+```
+$ npm init
+$ npm install
+```
+* install Bower tools from command line
+```
+$ bower init
+$ bower install
+```
+* build and run the server from the command line
+```
+$ gulp build
+$ gulp serve
 * A new browser should open to localhost:3000
 
 ## Technologies Used
